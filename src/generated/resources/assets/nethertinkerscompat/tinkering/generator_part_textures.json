@@ -1,0 +1,17 @@
+{
+  "parts": [
+    {
+      "path": "nethertinkerscompat:item/tool/machete/head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "nethertinkerscompat:item/tool/machete/head_broken",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "nethertinkerscompat:item/tool/machete/handle",
+      "stat_type": "tconstruct:handle"
+    }
+  ],
+  "replace": false
+}
