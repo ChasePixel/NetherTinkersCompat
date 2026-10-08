@@ -24,6 +24,7 @@ import slimeknights.tconstruct.library.tools.stat.ToolStats;
 import slimeknights.tconstruct.tools.TinkerModifiers;
 import slimeknights.tconstruct.tools.TinkerToolParts;
 import slimeknights.tconstruct.tools.TinkerTools;
+import slimeknights.tconstruct.tools.data.ModifierIds;
 
 public class NTCToolDefinitionDataProvider extends AbstractToolDefinitionDataProvider {
 
@@ -60,7 +61,7 @@ public class NTCToolDefinitionDataProvider extends AbstractToolDefinitionDataPro
                 .module(ToolTraitsModule.builder()
                         .trait(TinkerModifiers.severing, 2)
                         .trait(TinkerModifiers.lacerating, 2)
-                        .trait(TinkerModifiers.aoeSilkyShears)
+                        .trait(ModifierIds.silkyShears, 2)
                         .build())
                 .module(ToolActionsModule.of(ToolActions.SWORD_DIG))
                 .module(swordHarvest);
